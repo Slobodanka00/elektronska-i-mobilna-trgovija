@@ -1,0 +1,43 @@
+/* css file for the books component */
+
+div.books {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+
+}
+
+div.books > ul {
+    list-style: none;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    flex-direction: row;
+}
+
+h1 {
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+
+span.page-number {
+    text-align: center;
+    line-height: 2rem;
+    font-size: 1.5rem;
+}
+
+#booksTitle {
+    color: #111111;
+    margin: 30px;
+}
+#pageButtons {
+    background-color: #ffffff;
+    margin:0 5px;
+    padding: 5px;
+
+}
